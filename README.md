@@ -1,6 +1,6 @@
 # Curso de JavaScript - Teoría y Ejercicios
 
-Este repositorio contiene apuntes, teoría y miniejercicios prácticos realizados durante el estudio de JavaScript siguiendo los cursos de MoreDev básico e intermedio.  
+Este repositorio contiene apuntes, teoría y miniejercicios prácticos realizados durante el estudio de JavaScript siguiendo los cursos de MoureDev básico e intermedio.  
 La finalidad es aprender los fundamentos del lenguaje y practicar cada tema con pequeños ejercicios.
 
 ## Estructura del repositorio
