@@ -90,8 +90,3 @@ coche1.mostrarInfo()
 // 7. Utiliza polimorfismo en dos clases diferentes
 // hecho arriba
 
-// 8. Implementa un Mixin
-
-// 9. Crea un Singleton
-
-// 10. Desarrolla un Proxy
