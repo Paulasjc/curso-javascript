@@ -19,54 +19,7 @@
 //    thirdTask(): tarda 1.5s y muestra "Tercera tarea completada".
 
 
-console.log("Ejercicio 4");
 
-// Primera tarea (1 segundo)
-function firstTask() {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            console.log("Primera tarea completada");
-            resolve("Resultado de primera tarea");
-        }, 1000);
-    });
-}
-
-// Segunda tarea (2 segundos)
-function secondTask() {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            console.log("Segunda tarea completada");
-            resolve("Resultado de segunda tarea");
-        }, 2000);
-    });
-}
-
-// Tercera tarea (1.5 segundos)
-function thirdTask() {
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            console.log("Tercera tarea completada");
-            resolve("Resultado de tercera tarea");
-        }, 1500);
-    });
-}
-
-firstTask()
-    .then(result1 => {
-        console.log("→", result1);
-        return secondTask();
-    })
-    .then(result2 => {
-        console.log("→", result2);
-        return thirdTask();
-    })
-    .then(result3 => {
-        console.log("→", result3);
-        console.log("Todas las tareas se completaron correctamente.");
-    })
-    .catch(error => {
-        console.log("Error en alguna tarea:", error);
-    });
 
 
 
@@ -82,10 +35,10 @@ firstTask()
 
 
 // 7. Intenta predecir el resultado de este código antes de ejecutarlo en la consola:
-//    console.log("Inicio")
-//    setTimeout(() => console.log("setTimeout ejecutado"), 0)
-//    Promise.resolve().then(() => console.log("Promesa resuelta"))
-//    console.log("Fin")
+// console.log("Inicio")
+// setTimeout(() => console.log("setTimeout ejecutado"), 0)
+// Promise.resolve().then(() => console.log("Promesa resuelta"))
+// console.log("Fin")
 
 
 
