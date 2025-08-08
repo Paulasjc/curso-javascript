@@ -20,7 +20,7 @@ async function getDatosPokemon(pokemonName) {
       const speciesData = await speciesResponse.json();
       console.log("Datos de la especie:", speciesData);
   
-      // Finalmente, la cadena evolutiva (viene en speciesData.evolution_chain.url)
+      //la cadena evolutiva (viene en speciesData.evolution_chain.url)
       const evolutionResponse = await fetch(speciesData.evolution_chain.url);
       if (!evolutionResponse.ok) {
         throw new Error(`Error al obtener cadena evolutiva: ${evolutionResponse.status}`);
