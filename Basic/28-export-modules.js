@@ -40,8 +40,8 @@ export class Circle {
 
 // Clase por defecto
 
-export default MyClass {
+/*export default MyClass {
     funcA(){
         console.log("Mi clase")
     }
-}
+}*/

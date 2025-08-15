@@ -28,4 +28,5 @@ console.log(circle.area())
 
 // import proyecot modular en otra carpeta o lo que sea - path donde est el fichero.
 
-import {MyClass} from "./classes/MyClass.js"
+// import {MyClass} from "./classes/MyClass.js"
+
